@@ -1,0 +1,21 @@
+.title-header {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title-section {
+  display: flex;
+}
+.title {
+  display: flex;
+  margin-top: 15px;
+}
+
+.tribute {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -45px;
+}

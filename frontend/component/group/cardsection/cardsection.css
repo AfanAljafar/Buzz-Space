@@ -1,0 +1,12 @@
+.card-section {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 4;
+  margin-top: 290px;
+  background-color: transparent;
+}
