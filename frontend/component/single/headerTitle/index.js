@@ -18,7 +18,7 @@ export default function HeaderTitle({ children, tribute }) {
         iteration="1"
         fillMode="none"
   >*/}
-        <Image src="/logo.png" width={90} height={90} alt="log" />
+        <Image src="/logo.png" width={90} height={90} alt="logo" />
         <div className="title-section">
           <h1 className="title">{children}</h1>
           <div className="tribute">{tribute}</div>
