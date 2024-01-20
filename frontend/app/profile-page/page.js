@@ -1,11 +1,10 @@
 import Header from "../../component/group/header";
-import "./page.css";
+import "./profile-page.css";
 
-export default function Home() {
+export default function ProfilePage() {
   return (
     <main>
       <Header />
-      <section className="article-section"></section>
     </main>
   );
 }

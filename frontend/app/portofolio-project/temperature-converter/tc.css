@@ -1,0 +1,18 @@
+.tc-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 510px;
+  width: 100%;
+  background-color: green;
+  padding: 140px;
+  align-items: center;
+}
+
+.x,
+.y,
+.z,
+.outputsection,
+.explanation {
+  margin: 10px;
+}

@@ -1,6 +1,6 @@
-.title-header {
+.linktohome {
+  text-decoration: none;
   display: flex;
-  position: fixed;
   color: rgb(0, 183, 255);
 }
 
