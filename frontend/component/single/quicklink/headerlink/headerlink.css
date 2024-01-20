@@ -11,7 +11,11 @@
   border-spacing: 30px;
 }
 
-.c {
+.a,
+.b,
+.c,
+.d {
   color: rgb(0, 183, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
 }

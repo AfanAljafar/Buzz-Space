@@ -8,14 +8,26 @@ export default function HeaderLink() {
       <table className="table-link">
         <tbody className="link-sect">
           <tr>
-            <th>lorem ipsum</th>
+            <th>
+              <Link className="a" href={"/portofolio-project"}>
+                Portofolio Project
+              </Link>
+            </th>
+            <th>
+              <Link className="b" href={"/projects-ongoing"}>
+                Ongoing Projects
+              </Link>
+            </th>
             <th>
               <Link className="c" href={"/profile-page"}>
                 About Us
               </Link>
             </th>
-            <th>lorem ipsum</th>
-            <th>lorem ipsum</th>
+            <th>
+              <Link className="d" href={"/blog"}>
+                Blog
+              </Link>
+            </th>
           </tr>
         </tbody>
       </table>
