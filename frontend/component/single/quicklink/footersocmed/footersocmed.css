@@ -12,3 +12,9 @@
 .getintouch {
   font-family: garamond;
 }
+
+.linkedin,
+.instagram {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+}

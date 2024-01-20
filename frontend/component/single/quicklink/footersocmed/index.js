@@ -1,5 +1,6 @@
 import React from "react";
 import "./footersocmed.css";
+import Link from "next/link";
 
 export default function FooterSocmed() {
   return (
@@ -16,15 +17,29 @@ export default function FooterSocmed() {
         <tbody>
           <tr>
             <td>LinkedIn</td>
-            <td>linkedin.com/in/muhammadafanaljafar</td>
+            <td>
+              <Link
+                className="linkedin"
+                href={"https://www.linkedin.com/in/muhammadafanaljafar/"}
+              >
+                Muhammad Afan Aljafar
+              </Link>
+            </td>
           </tr>
           <tr>
             <td>Instagram</td>
-            <td>AfanAljafar</td>
+            <td>
+              <Link
+                className="instagram"
+                href={"https://www.instagram.com/afanaljafar/"}
+              >
+                Afan Aljafar
+              </Link>
+            </td>
           </tr>
           <tr>
             <td>Email</td>
-            <td>muhammadafanaljafar@Gmail.com</td>
+            <td>muhammadafanaljafar@gmail.com</td>
           </tr>
         </tbody>
       </table>
