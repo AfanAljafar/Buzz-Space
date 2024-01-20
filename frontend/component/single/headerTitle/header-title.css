@@ -1,7 +1,6 @@
 .title-header {
   display: flex;
-  position: absolute;
-  background-color: black;
+  position: fixed;
   color: rgb(0, 183, 255);
 }
 

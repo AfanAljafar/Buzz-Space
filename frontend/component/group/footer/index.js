@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import FooterTitle from "../../single/footertitle";
-import FooterSocmed from "../../single/quicksocmed/footersocmed";
+import FooterSocmed from "../../single/quicklink/footersocmed";
 
 export default function Footer() {
   return (
