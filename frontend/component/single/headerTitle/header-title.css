@@ -1,21 +1,17 @@
 .title-header {
   display: flex;
-  flex-direction: column;
   position: absolute;
-  width: fit-content;
-  height: fit-content;
+  background-color: black;
+  color: rgb(0, 183, 255);
 }
 
 .title-section {
   display: flex;
-}
-.title {
-  display: flex;
-  margin-top: 15px;
+  flex-direction: column;
+  margin-top: 13px;
 }
 
 .tribute {
   display: flex;
   justify-content: flex-end;
-  margin-top: -45px;
 }

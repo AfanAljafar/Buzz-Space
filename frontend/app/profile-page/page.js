@@ -6,7 +6,6 @@ export default function Home() {
     <main>
       <Header />
       <section className="article-section"></section>
-      <footer className="footer"></footer>
     </main>
   );
 }

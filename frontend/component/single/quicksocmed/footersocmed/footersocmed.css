@@ -1,0 +1,14 @@
+.socmed-footer {
+  display: flex;
+  border-collapse: separate;
+  border-spacing: 50px;
+}
+
+.table-socmed {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.getintouch {
+  font-family: garamond;
+}

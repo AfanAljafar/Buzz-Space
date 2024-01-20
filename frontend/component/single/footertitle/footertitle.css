@@ -1,0 +1,15 @@
+.title-footer {
+  display: flex;
+}
+
+.title-section-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.tribute-footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+}

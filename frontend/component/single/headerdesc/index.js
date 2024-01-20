@@ -3,7 +3,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-export default function HeaderDesc({ summary }) {
+export default function HeaderDesc() {
   return (
     <div className="summary">
       <Typewriter
