@@ -9,7 +9,7 @@ export default function PortofolioProject() {
       <Header />
       <div className="bg-pp">
         <Link className="tc" href={"/portofolio-project/temperature-converter"}>
-          <Card children={"Thermal Converter"} />
+          <Card children={"Temperature Converter"} />
         </Link>
         <Card className="b" children={"lorem ipsum"} />
         <Card className="b" children={"lorem ipsum"} />
