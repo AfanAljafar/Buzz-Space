@@ -1,45 +1,41 @@
 import React from "react";
 import "./footersocmed.css";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterSocmed() {
   return (
     <div className="socmed-footer">
+      <h2 className="getintouch">Get In Touch</h2>
       <table className="table-socmed">
-        <thead>
-          <tr>
-            <th>
-              <h2 className="getintouch">Get In Touch</h2>
-            </th>
-            <th></th>
-          </tr>
-        </thead>
         <tbody>
           <tr>
-            <td>LinkedIn</td>
             <td>
               <Link
                 className="linkedin"
                 href={"https://www.linkedin.com/in/muhammadafanaljafar/"}
               >
-                Muhammad Afan Aljafar
+                <Image
+                  src="/linkedin.png"
+                  width={50}
+                  height={50}
+                  alt="linkedin"
+                />
               </Link>
             </td>
-          </tr>
-          <tr>
-            <td>Instagram</td>
             <td>
               <Link
                 className="instagram"
                 href={"https://www.instagram.com/afanaljafar/"}
               >
-                Afan Aljafar
+                <Image src="/ig.png" width={50} height={50} alt="instagram" />
               </Link>
             </td>
-          </tr>
-          <tr>
-            <td>Email</td>
-            <td>muhammadafanaljafar@gmail.com</td>
+            <td>
+              <Link className="github" href={"https://github.com/AfanAljafar"}>
+                <Image src="/gh.png" width={45} height={45} alt="github" />
+              </Link>
+            </td>
           </tr>
         </tbody>
       </table>

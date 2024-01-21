@@ -1,12 +1,11 @@
 .socmed-footer {
   display: flex;
-  border-collapse: separate;
-  border-spacing: 50px;
+  flex-direction: column;
 }
 
 .table-socmed {
   border-collapse: separate;
-  border-spacing: 5px;
+  border-spacing: 10px;
 }
 
 .getintouch {
