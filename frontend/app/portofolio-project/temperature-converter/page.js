@@ -6,6 +6,7 @@ import "./tc.css";
 function TemperaturConverter() {
   const [mode1, setMode1] = useState("Celcius (°C) :");
   const [mode2, setMode2] = useState("Fahrenheit (°F) :");
+
   const [explanation, setExplanation] = useState("");
 
   const [input1, setInput1] = useState("");
@@ -30,7 +31,7 @@ function TemperaturConverter() {
 
     const celcius = (5 / 9) * (fahrenheit - 32);
 
-    setInput1(celcius.toString());
+    setInput2(celcius.toString());
     setExplanation(`(5 / 9) (${fahrenheit} - 32) = ${celcius}`);
 
     console.log(celcius);

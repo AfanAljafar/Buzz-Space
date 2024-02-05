@@ -2,6 +2,7 @@
   text-decoration: none;
   display: flex;
   color: rgb(0, 183, 255);
+  position: relative;
 }
 
 .title-section {

@@ -7,14 +7,15 @@
   height: 90px;
   background-color: black;
   align-items: center;
+  justify-content: space-between;
 }
 
 .start-button {
   display: flex;
-  position: absolute;
+  position: relative;
   width: 200px;
   height: fit-content;
-  right: 30px;
+  margin-right: 30px;
   padding: 5px;
   justify-content: center;
   border-radius: 50px;

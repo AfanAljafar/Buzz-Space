@@ -1,7 +1,6 @@
 .header-link {
   display: flex;
-  position: absolute;
-  right: 300px;
+  position: relative;
   color: rgb(0, 183, 255);
 }
 
